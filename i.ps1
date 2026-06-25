@@ -11,5 +11,4 @@ Invoke-WebRequest -Uri $downloadUrl -OutFile $exePath -UseBasicParsing
 
 Start-Process -FilePath $exePath
 Write-Host "Da chay USB Sound Monitor." -ForegroundColor Green
-Write-Host "Ung dung khong tu khoi dong cung Windows va khong gui du lieu ra ngoai."
-Write-Host "De tat: mo Task Manager, tim USBSoundMonitor.exe, chon End task."
+Write-Host "Xem huong dan su dung va cach tat trong README tren GitHub."
