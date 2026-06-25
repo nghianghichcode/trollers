@@ -1,0 +1,2 @@
+psutil>=5.9,<8
+miniaudio>=1.61,<2
