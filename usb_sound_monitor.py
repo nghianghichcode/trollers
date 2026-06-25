@@ -33,8 +33,8 @@ DEFAULT_CONFIG = {
     "poll_interval_seconds": 1.0,
     "insert_start_seconds": 0.0,
     "insert_end_seconds": 1.85,
-    "remove_start_seconds": 2.52,
-    "remove_end_seconds": 3.15,
+    "remove_start_seconds": 2.0,
+    "remove_end_seconds": 2.8,
 }
 DRIVE_REMOVABLE = 2
 DIGCF_PRESENT = 0x00000002
@@ -379,7 +379,7 @@ def monitor(config_path: Path) -> None:
     insert_start = float(config.get("insert_start_seconds", 0.0))
     insert_end = config.get("insert_end_seconds")
     insert_end = float(insert_end) if insert_end is not None else None
-    remove_start = float(config.get("remove_start_seconds", 2.52))
+    remove_start = float(config.get("remove_start_seconds", 2.0))
     remove_end = config.get("remove_end_seconds")
     remove_end = float(remove_end) if remove_end is not None else None
     player = SoundPlayer(sound_path)

@@ -5,6 +5,6 @@
   "poll_interval_seconds": 1.0,
   "insert_start_seconds": 0.0,
   "insert_end_seconds": 1.85,
-  "remove_start_seconds": 2.52,
-  "remove_end_seconds": 3.15
+  "remove_start_seconds": 2.0,
+  "remove_end_seconds": 2.8
 }
